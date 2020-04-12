@@ -1,0 +1,17 @@
+[
+  {
+    "path": "posts/2019-12-19-starting/",
+    "title": "Blog Start",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Chungil Chae",
+        "url": {}
+      }
+    ],
+    "date": "2019-12-19",
+    "categories": [],
+    "preview": "https://pbs.twimg.com/profile_images/333263672/HOJPHxJtqNCWGIqcJO0vpw_400x400.jpg",
+    "last_modified": "2020-03-01T14:38:56+09:00"
+  }
+]
