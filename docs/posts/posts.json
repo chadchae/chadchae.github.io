@@ -1,0 +1,17 @@
+[
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Chad (Chungil) Chae",
+    "description": "Welcome to our new blog, Chad (Chungil) Chae. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-02-11",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2021-02-11T20:13:20-03:00"
+  }
+]

@@ -1,0 +1,24 @@
+name: "chadchae_eng"
+title: "Chad (Chungil) Chae"
+description: |
+  Chad (Chungil) Chae
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Chad"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Service"
+      href: service.html
+    - text: "Project"
+      href: project.html
+    - text: "Resources"
+      href: about.html
+    - text: "KOR"
+      href: about.html
+output: radix::radix_article

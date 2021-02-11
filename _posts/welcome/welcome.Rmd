@@ -1,0 +1,26 @@
+---
+title: "Welcome to Chad (Chungil) Chae"
+description: |
+  Welcome to our new blog, Chad (Chungil) Chae. We hope you enjoy 
+  reading what we have to say!
+author:
+  - name: Nora Jones 
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: 02-11-2021
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Radix at:
+# https://rstudio.github.io/radix/blog.html
+
+```
+
+
+
