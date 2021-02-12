@@ -12,6 +12,7 @@
 *.Rmd
 
 # 폴더
+/_posts
 /_bib
 /_data
 /_posts
