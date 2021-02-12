@@ -13,8 +13,14 @@
 build.sh
 
 # 폴더
+/_asset_posts
+/_asset_bib
+/_asset_data
 /_posts
-/_bib
-/_data
-/_posts
-/_recourse
+/_pr
+/_pu
+/_re
+/_se
+/_te
+/_eng
+/_kor
