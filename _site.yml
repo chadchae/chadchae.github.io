@@ -31,7 +31,7 @@ navbar:
       href: resource.html
     - text: "ENG"
       href: eng.html
-    - text: "KOR"
+    - text: "한글"
       href: kor.html
 collections:
   posts:

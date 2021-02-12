@@ -6,7 +6,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-  <meta name="generator" content="radix" />
+  <meta name="generator" content="distill" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -17,6 +17,72 @@
 
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
 <title>Chad (Chungil) Chae: HR Analytics에 대한 단상</title>
@@ -1995,7 +2061,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.6/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="../../site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
@@ -2034,7 +2106,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <a href="../../project.html">Project</a>
 <a href="../../resource.html">Resources</a>
 <a href="../../eng.html">ENG</a>
-<a href="../../kor.html">KOR</a>
+<a href="../../kor.html">한글</a>
 <a href="https://github.com/chadchae/" aria-label="Link to source">
 <i class="fab fa-github" aria-hidden="true"></i>
 </a>
@@ -2048,7 +2120,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="d-title">
 <h1>HR Analytics에 대한 단상</h1>
-<p>HR Analytics 결국 인적자원분석 이걸 기존의 분석행태와 분리해 보고자 HR Analytics라는 영문이름을 고집했지만 글세 좀 미련한 짓이 아니였나 싶다. 지금 HR analytics 라고 불리우는것이 이전에 없었는가 하면 그건 또 아니고, 이게 브렌딩이 되면서 “HR analytics”라는 브렌드로서 정착되고 있다는 생각이 든다.<br /></p>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+  <a href="../../kor.html#category:TEMP" class="dt-tag">TEMP</a>
+</div>
+<!--/radix_placeholder_categories-->
+<p><p>HR Analytics 결국 인적자원분석 이걸 기존의 분석행태와 분리해 보고자 HR Analytics라는 영문이름을 고집했지만 글세 좀 미련한 짓이 아니였나 싶다. 지금 HR analytics 라고 불리우는것이 이전에 없었는가 하면 그건 또 아니고, 이게 브렌딩이 되면서 “HR analytics”라는 브렌드로서 정착되고 있다는 생각이 든다.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2058,35 +2135,37 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <div class="d-article">
-<h3 class="d-toc-header">Table of Contents</h3>
-<nav class="d-toc" id="TOC">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
 <ul>
 <li><a href="#hr-analytics라는게-뭐냐-대체">HR Analytics라는게 뭐냐 대체?</a></li>
 </ul>
 </nav>
-<hr class="d-toc-separator"/>
+</div>
 <h1 id="hr-analytics라는게-뭐냐-대체">HR Analytics라는게 뭐냐 대체?</h1>
 <p>이번에 투고한 글의 요지는 그래서 어떻게 HR professional들의 분석역량이라는걸 개발할 것인가? 라는 주제였다. HR Analytics역량에 대한 짧은 글을 쓰고나서 글을 쓰고 나서 몇가지 아쉬웠거나 좋은 글감 아이디어였는데 글 흐름상 제외시킨 몇가지에 대해서 남기려고 함다.</p>
 <p>HR Analytics 결국 인적자원분석 이걸 기존의 분석행태와 분리해 보고자 HR Analytics라는 영문이름을 고집했지만 글세 좀 미련한 짓이 아니였나 싶다. 지금 HR analytics 라고 불리우는것이 이전에 없었는가 하면 그건 또 아니고, 이게 브렌딩이 되면서 “HR analytics”라는 브렌드로서 정착되고 있다는 생각이 든다.</p>
-<p>용어가 어찌되었든, 핵심은 데이터와 분석이다. 그리고 분석은 “왜 분석하는가”, “뭘 분석하려는가”등의 질문등이 선행되고 나서야 “어떻게 분석할것인가”를 논하는 것이 의미가 있다.</p>
-<p>사실 글을 준비하면서 아! 이거다 라는 영감을 준 영화가 있었다. 히든 피겨스 <span class="citation" data-cites="hidden">(Schroeder <a href="#ref-hidden">2016</a>)</span>.</p>
+<p>용어가 어찌되었든, 핵심은 데이터와 분석이다. 그리고 분석은 “왜 분석하는가,” “뭘 분석하려는가”등의 질문등이 선행되고 나서야 “어떻게 분석할것인가”를 논하는 것이 의미가 있다.</p>
+<p>사실 글을 준비하면서 아! 이거다 라는 영감을 준 영화가 있었다. 히든 피겨스 <span class="citation" data-cites="hidden">(<a href="#ref-hidden" role="doc-biblioref">Schroeder 2016</a>)</span>.</p>
 <figure>
-<img src="p1.png" alt="Topicmodel result" /><figcaption>Topicmodel result</figcaption>
+<img src="p1.png" alt="Topicmodel result" /><figcaption aria-hidden="true">Topicmodel result</figcaption>
 </figure>
-<p>영화에서 세명의 주요 주인공중에 한명인 도로시 본(나사 흑인여성 최초의 슈퍼바이저, 옥타비아 스펜서 분)<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>이 나오는 장면은 HR/HRD전문가들이 눈여겨 볼만한 것이 있다. 영화에서 나사는 IBM의 슈퍼컴퓨터를 도입하게 되는데(여기 사용되는 언어가 포트란), 막상 이걸 도입하고도 제대로 운영을 못하고 있는 실정이였다. 도로시는 이 슈퍼컴퓨터의 도입이 자신들을 대체할것을 직감한다. 그녀는 도서관에서 포트란책을 빌려(?) 학습하고, 사람이 없을 때 들어가서 실제도 구동도 해본다. 그녀는 이걸 자신만의 장점으로 숨기지 않고 부서의 다른 직원들에게 새로운 기술(IBM 컴퓨터의 운용, 포트란언어)를 배울것을 동기부여한다. 영화 후반부 비비안 미첼부인이(백인 어드바이져, 슈퍼바이져) 그녀에게 이 부서에서의 일을 제안할 때 비비안은 다른 직원들 모두를 채용할것을 조건으로 제안을 수락한다.</p>
+<p>영화에서 세명의 주요 주인공중에 한명인 도로시 본(나사 흑인여성 최초의 슈퍼바이저, 옥타비아 스펜서 분)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>이 나오는 장면은 HR/HRD전문가들이 눈여겨 볼만한 것이 있다. 영화에서 나사는 IBM의 슈퍼컴퓨터를 도입하게 되는데(여기 사용되는 언어가 포트란), 막상 이걸 도입하고도 제대로 운영을 못하고 있는 실정이였다. 도로시는 이 슈퍼컴퓨터의 도입이 자신들을 대체할것을 직감한다. 그녀는 도서관에서 포트란책을 빌려(?) 학습하고, 사람이 없을 때 들어가서 실제도 구동도 해본다. 그녀는 이걸 자신만의 장점으로 숨기지 않고 부서의 다른 직원들에게 새로운 기술(IBM 컴퓨터의 운용, 포트란언어)를 배울것을 동기부여한다. 영화 후반부 비비안 미첼부인이(백인 어드바이져, 슈퍼바이져) 그녀에게 이 부서에서의 일을 제안할 때 비비안은 다른 직원들 모두를 채용할것을 조건으로 제안을 수락한다.</p>
 <figure>
-<img src="p2.png" alt="Topicmodel result" /><figcaption>Topicmodel result</figcaption>
+<img src="p2.png" alt="Topicmodel result" /><figcaption aria-hidden="true">Topicmodel result</figcaption>
 </figure>
 <p>요즘 4차산업혁명과 관련한 몇가지 글들을 읽으면서 불안과 희망의 혼재를 느낀다. 그런데 한가지 인상에 남는것은 이러한 기술의 발달에서 사람이 도태되는것이 아니라, 새로운 기술을 운용할 역량이 없는 또는 그 준비를 하지 않는 사람들이 도태되는것이라는 주장이다. 히든피겨스에서 IBM컴퓨터의 도입결정 후 컴퓨팅그룹(사람들이 수계산을 하는) 직원들이 토로한 불안과 불만에서 4차산업혁명시대에 대한 사람들의 불안을 매치시켜볼 수 있었다. 자본이론에서 인적자본은 학습과 교육/훈련을 통해 역량과 기술숙련을 높이고 개인의 협상력을 높인다는 주장이 있다(Lin ????). 너무나 당연한 이야기지만 이거다 하는 사례를 꼽기는 어려운 부분이기도 하다. 이는 협상력을 담보할만한 기술역량의 향상이 개인에게 있어서 일반적인 상황에서 쉽지는 않다는걸 의미하기도 하고 빅데이터!!!, 4차산업혁명!!! 으로 대변되는 기술주도의 산업전반의 변환기에서의 일말의 희망일 수도 있겠다는 생각을 해 본다.</p>
-<div id="refs" class="references">
-<div id="ref-hidden">
-<p>Schroeder, Allison. 2016. “Hidden Figure.”</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-hidden" class="csl-entry" role="doc-biblioentry">
+Schroeder, Allison. 2016. <span>“Hidden Figure.”</span>
 </div>
 </div>
-<section class="footnotes">
+<section class="footnotes" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>포스터에서 세번째 여성, <a href="https://www.nasa.gov/content/dorothy-vaughan-biography/" class="uri">https://www.nasa.gov/content/dorothy-vaughan-biography/</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1" role="doc-endnote"><p>포스터에서 세번째 여성, <a href="https://www.nasa.gov/content/dorothy-vaughan-biography/" class="uri">https://www.nasa.gov/content/dorothy-vaughan-biography/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 <!--radix_placeholder_article_footer-->

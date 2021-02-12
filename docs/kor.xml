@@ -12,7 +12,105 @@
       <link>https://chadchae.github.io/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>중국에서 교수하기 0</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2020-08-29-wku0</link>
+      <description>중국 케인-원저우 대학 컨텍에서 임용까지</description>
+      <category>중국에서 교수하기</category>
+      <guid>https://chadchae.github.io/kor/2020-08-29-wku0</guid>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[HRD분석] 교육요구도 조사 Borich and Locus for Focus</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-12-20191212borichandlocusforfocus</link>
+      <description>내용</description>
+      <category>HRD</category>
+      <category>분석</category>
+      <category>교육요구도</category>
+      <category>Borich</category>
+      <category>Locus for Focus</category>
+      <guid>https://chadchae.github.io/kor/2019-12-12-20191212borichandlocusforfocus</guid>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[R tip] 분석전 셋팅 (폴더, 패키지, 등등) </title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-13-rtip0</link>
+      <description>R에서 분석을 시작하기전에 해야할 기본 셋팅들에 대해 정리</description>
+      <category>R tip</category>
+      <category>한글처리</category>
+      <guid>https://chadchae.github.io/kor/2019-12-13-rtip0</guid>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[R tip] Mac에서 한글사용 관련 이슈 정리</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-13-rtip1</link>
+      <description>macOS에서 한글 출력에 대한 이슈와 해결방법들을 정리한 문서</description>
+      <category>R tip</category>
+      <category>한글처리</category>
+      <guid>https://chadchae.github.io/kor/2019-12-13-rtip1</guid>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>managingcodebook</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-20-managingcodebook</link>
+      <description>A short description of the post.</description>
+      <guid>https://chadchae.github.io/kor/2019-12-20-managingcodebook</guid>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>챕터3: 네트웍 데이터 관리</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-19-ch3ugna</link>
+      <description>A user's guide to network analysis in R 책의 챕터 3 서머리</description>
+      <guid>https://chadchae.github.io/kor/2019-12-19-ch3ugna</guid>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>챕터2: 네트워크 분석 'Five Number Summary'</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-18-ch2ugna</link>
+      <description>A user's guide to network analysis in R 책의 챕터 2 서머리.</description>
+      <guid>https://chadchae.github.io/kor/2019-12-18-ch2ugna</guid>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2019-12-18-ch2ugna/ch2ugna_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>챕터1: R에서 소셜네트워크 분석 소개</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-17-ch1ugna</link>
+      <description>A user's guide to network analysis in R 책의 챕터 1 서머리</description>
+      <guid>https://chadchae.github.io/kor/2019-12-17-ch1ugna</guid>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>[분석절차] Multiple Regression 분석 절차 및 코드</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-12-16-regression</link>
+      <description>A short description of the post.</description>
+      <category>Regression</category>
+      <category>Multiple Regression</category>
+      <category>Code</category>
+      <guid>https://chadchae.github.io/kor/2019-12-16-regression</guid>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2019-12-16-regression/preview.png" medium="image" type="image/png" width="1200" height="794"/>
+    </item>
+    <item>
+      <title>HR Analytics 측면에서의 텍스트자료에 대한 분석</title>
+      <dc:creator>Chad</dc:creator>
+      <dc:creator>이재은</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight</link>
+      <description>HR에 연관성이 높으면서도 자주 간과되는 데이터의 유형이 있다. 바로 질적자료유형이라 불리는 텍스트 자료들이다. 이러한 자료들은 기존에는 분석과 처리에 어려움이 있었기에 자주 생성되고 곧 버려지는 데이터였다. 또한 HR분석을 고려함에 있어 실무에서의 사례는 복잡하며 고려해야할 변수는 다양하고 데이터의 크기는 크다</description>
+      <category>TEMP</category>
+      <guid>https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight</guid>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight/f1.png" medium="image" type="image/png" width="626" height="311"/>
+    </item>
     <item>
       <title>AI for HR/HRD</title>
       <dc:creator>Chad</dc:creator>
