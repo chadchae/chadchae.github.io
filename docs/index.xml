@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:distill="https://distill.pub/journal/" version="2.0">
   <channel>
     <title>Chad (Chungil) Chae</title>
     <link>https://chadchae.github.io/</link>
@@ -11,16 +11,17 @@
       <url>https://chadchae.github.io/img/logo_favicon.png</url>
       <link>https://chadchae.github.io/</link>
     </image>
-    <generator>Radix</generator>
-    <lastBuildDate>Sat, 20 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Welcome to Chad (Chungil) Chae</title>
-      <dc:creator>Chad (Chungil Chae)</dc:creator>
-      <link>https://chadchae.github.io/posts/welcome</link>
-      <description>Welcome to our new blog, Chad (Chungil) Chae. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://chadchae.github.io/posts/welcome</guid>
-      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      <title>New Start</title>
+      <dc:creator>Chungil Chae</dc:creator>
+      <link>https://chadchae.github.io/posts/2021-02-11-new-start</link>
+      <description>A short description of the post.</description>
+      <category>ENG</category>
+      <guid>https://chadchae.github.io/posts/2021-02-11-new-start</guid>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://pbs.twimg.com/profile_images/333263672/HOJPHxJtqNCWGIqcJO0vpw_400x400.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

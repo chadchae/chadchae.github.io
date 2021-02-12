@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="radix" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+  <!--radix_placeholder_meta_tags-->
+  <title>AI for HR/HRD</title>
+  
+  <meta property="description" itemprop="description" content="디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?"/>
+  
+  
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2019-09-24"/>
+  <meta property="article:created" itemprop="dateCreated" content="2019-09-24"/>
+  <meta name="article:author" content="Chad"/>
+  
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="AI for HR/HRD"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?"/>
+  <meta property="og:locale" content="en_US"/>
+  
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="AI for HR/HRD"/>
+  <meta property="twitter:description" content="디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?"/>
+  
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","categories","output"]}},"value":[{"type":"character","attributes":{},"value":["AI for HR/HRD"]},{"type":"character","attributes":{},"value":["디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Chad"]},{"type":"character","attributes":{},"value":["https://github.com/chadlab"]}]}]},{"type":"character","attributes":{},"value":["09-24-2019"]},{"type":"character","attributes":{},"value":["ai.png"]},{"type":"character","attributes":{},"value":["TEMP"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["ai.png","hrandai_files/bowser-1.9.3/bowser.min.js","hrandai_files/distill-2.2.21/template.v2.js","hrandai_files/jquery-1.11.3/jquery.min.js","hrandai_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+  
+  <style type="text/css">
+  
+  body {
+    background-color: white;
+  }
+  
+  .pandoc-table {
+    width: 100%;
+  }
+  
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+  
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+  
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+  
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+  
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+  
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+  
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .shaded-content {
+    background: white;
+  }
+  
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  d-article {
+    padding-bottom: 30px;
+  }
+  
+  d-appendix {
+    padding-top: 30px;
+  }
+  
+  d-article>p>img {
+    width: 100%;
+  }
+  
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+  
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  /* CSS for table of contents */
+  
+  .d-toc {
+    color: rgba(0,0,0,0.8);
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+  
+  .d-toc-header {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.3em;
+  }
+  
+  .d-toc a {
+    border-bottom: none;
+  }
+  
+  .d-toc ul {
+    padding-left: 0;
+  }
+  
+  .d-toc li>ul {
+    padding-top: 0.8em;
+    padding-left: 16px;
+    margin-bottom: 0.6em;
+  }
+  
+  .d-toc ul,
+  .d-toc li {
+    list-style-type: none;
+  }
+  
+  .d-toc li {
+    margin-bottom: 0.9em;
+  }
+  
+  .d-toc-separator {
+    margin-top: 20px;
+    margin-bottom: 2em;
+  }
+  
+  .d-article-with-toc {
+    border-top: none;
+    padding-top: 0;
+  }
+  
+  
+  
+  /* Tweak code blocks (note that this CSS is repeated above in an injection
+     into the d-code shadow dom) */
+  
+  d-code {
+    overflow-x: auto !important;
+  }
+  
+  pre.d-code code.d-code {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+  
+  pre.text-output {
+  
+    font-size: 12px;
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  @media(min-width: 768px) {
+  
+  d-code {
+    overflow-x: visible !important;
+  }
+  
+  pre.d-code code.d-code  {
+      padding-left: 18px;
+      font-size: 14px;
+  }
+  pre.text-output {
+    font-size: 14px;
+  }
+  }
+  
+  /* Figure */
+  
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+  
+  .figure img {
+    width: 100%;
+  }
+  
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+  
+  
+  
+  /* Tweak 1000px media break to show more text */
+  
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+  
+    .grid {
+      grid-column-gap: 16px;
+    }
+  
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+  
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+  
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+  
+  
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+  
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  
+  /* Social footer */
+  
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+  
+  .disqus-comments {
+    margin-right: 30px;
+  }
+  
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  #disqus_thread {
+    margin-top: 30px;
+  }
+  
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+  
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+  
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+  
+  
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  
+  
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+  
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+  
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+  
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+  
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+  
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+  
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+  
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+  
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  </style>
+  
+  <script type="application/javascript">
+  
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+  
+  // show body when load is complete
+  function on_load_complete() {
+  
+    // set body to visible
+    document.body.style.visibility = 'visible';
+  
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+  
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+  
+  function init_distill() {
+  
+    init_common();
+  
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+  
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+  
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+  
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+  
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+  
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+  
+    // create d-bibliography
+    var bibliography = $('<d-bibliography></d-bibliography>');
+    $('#distill-bibliography').wrap(bibliography);
+  
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+  
+    // replace citations with <d-cite>
+    $('.citation').each(function(i, val) {
+      appendix = true;
+      var cites = $(this).attr('data-cites').split(" ");
+      var dt_cite = $('<d-cite></d-cite>');
+      dt_cite.attr('key', cites.join());
+      $(this).replaceWith(dt_cite);
+    });
+    // remove refs
+    $('#refs').remove();
+  
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+  
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-toc a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+  
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+  
+    // replace code blocks with d-code
+    $('pre>code').each(function(i, val) {
+      var code = $(this);
+      var pre = code.parent();
+      var clz = "";
+      var language = pre.attr('class');
+      if (language) {
+        // map unknown languages to "clike" (without this they just dissapear)
+        if ($.inArray(language, ["bash", "clike", "css", "go", "html",
+                                 "javascript", "js", "julia", "lua", "markdown",
+                                 "markup", "mathml", "python", "svg", "xml"]) == -1)
+          language = "clike";
+        language = ' language="' + language + '"';
+        var dt_code = $('<d-code block' + language + clz + '></d-code>');
+        dt_code.text(code.text());
+        pre.replaceWith(dt_code);
+      } else {
+        code.addClass('text-output').unwrap().changeElementType('pre');
+      }
+    });
+  
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+  
+      // capture layout
+      var layout = $(this).attr('data-layout');
+  
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('d-code, pre.text-output, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+  
+  
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+  
+    // load distill framework
+    load_distill_framework();
+  
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+  
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+  
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+  
+      // table of contents
+      if (have_authors) // adjust border if we are in authors
+        $('.d-toc').parent().addClass('d-article-with-toc');
+  
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+  
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+  
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+  
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+  
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+  
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+  
+      // inject pre code styles (can't do this with a global stylesheet b/c a shadow root is used)
+      $('d-code').each(function(i, val) {
+        var style = document.createElement('style');
+        style.innerHTML = 'pre code { padding-left: 10px; font-size: 12px; border-left: 2px solid rgba(0,0,0,0.1); } ' +
+                          '@media(min-width: 768px) { pre code { padding-left: 18px; font-size: 14px; } }';
+        if (this.shadowRoot)
+          this.shadowRoot.appendChild(style);
+      });
+  
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+  
+      // clear polling timer
+      clearInterval(tid);
+  
+      // show body now that everything is ready
+      on_load_complete();
+    }
+  
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+  
+  }
+  
+  function init_downlevel() {
+  
+    init_common();
+  
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+  
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+  
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+  
+    // remove toc
+    $('.d-toc-header').remove();
+    $('.d-toc').remove();
+    $('.d-toc-separator').remove();
+  
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+  
+  
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+  
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+  
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+  
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+  
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+  
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+  
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+  
+    $('body').addClass('downlevel');
+  
+    on_load_complete();
+  }
+  
+  
+  function init_common() {
+  
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+  
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+  
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+  
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+  
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+  
+      }
+    });
+  
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+  
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.radix-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+  
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+  
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+  
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+  
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+  
+  </script>
+  
+  <!--/radix_placeholder_distill-->
+  <script src="hrandai_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="hrandai_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="hrandai_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="hrandai_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"AI for HR/HRD","description":"디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?","authors":[{"author":"Chad","authorURL":"https://github.com/chadlab","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2019-09-24T00:00:00.000-04:00","citationText":"Chad, 2019"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>AI for HR/HRD</h1>
+<p>디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?</p>
+</div>
+
+<div class="d-byline">
+  Chad <a href="https://github.com/chadlab" class="uri">https://github.com/chadlab</a> 
+  
+<br/>09-24-2019
+</div>
+
+<div class="d-article">
+<figure>
+<img src="ai.png" alt="AI" /><figcaption>AI</figcaption>
+</figure>
+<p>2015 년 맥킨지 보고서는 오늘날 근로자의 활동 중 45%가자동화 될 수 있다고 예측하였다. 자동화와 관련한 논의에서, 디지털 트렌스포메이션, 업무자동화, 인공지능과 같은 키워드를 심심치 않게 볼 수 있다. 인공지능의 도입과 디지털 트렌스포메이션의 기저에는 HCI(Human Computer Interaction)과 인지과학에서의 연구와 발견들이 중심을 이루고 있다.</p>
+<p>인지과학에서 인지는 세상을 인식하고 경험을 기억하고 이야기하고 배우며 그에 따라 행동을 수정하는 능력에 기초한 정신 과정이며 여기에는 인식, 기억, 언어 및 생각과 같은 기능이 포함된다. 기능주의적 관점에서 인간의 정신에서 발생하는 이벤트들은 정보 또는 출력으로 변환하기 때문에 인과적 또는 기능적이라고 생각해 왔고 마음은 뇌의 소프트웨어이며 독립적으로 이해 될 수 있다고 보았다. 그러나 사회 또는 집단 인지의 측면에서, 개인과 그룹의 정신상태와 행동의 변화는 표현과 상호작용의 변화로 인해 발생하며, 사회적 변화에 대한 설명은 단순히 개개인의 변화의 합계가 아닌 그룹의 출현 속성으로 식별된다고 보았다. 이는 개인차원의 인지가 어떻게 그룹 및 사회차원에서 상호작용을 하는지에 대한 설명으로, 인지 및 사회적 메커니즘으로 인한 사회적 변화는 종종 점진적인 축적이 아니라 중요한 전환으로 인해 발생함을 의미한다. 전통적인 인적자원의 접근에서 인지는 개인의 자격요건, 직무지식 및 핵심역량등에 국한되어 설명이 되었다. 인지기술은 정보를 처리하고 지식을 얻는데 필요한 지각 및 추론과 같은 정신적 능력을 뜻하며 직관력은 대인 관계의 잠재력과 질을 결정하는 인지 기술로 이해되곤 하는데, 이러한 인지적 요소들은 직원들의 작업방식과 능력, 문제해결 및 기획력에 중요한 요소로 이해되었다.</p>
+<p>자동화와 관련해서 많은 솔루션 들은 조직에서 일어나는 프로세스와 플로우를 모델링 하고 이를 처리하는 인간의 인지프로세스를 모방하여 복잡한 업무를 안전하게 수행하고 자동화를 촉진하는 것을 목적으로 한다. 그러나, 조직에서 일어나는 모든 프로세스와 플로우를 단일 프로세스로 정의하고 문서화 할 수는 없다. 이는 서로 다른 사람들의 요구사항들을 처리해야하는 (의미를 체계화 하는) 온톨로지에 대한 접근 방식이 필요함을 나타낸다. 온톨로지 상에서 서로 상이한 요구사항들은 메타데이터를 통해 결합되고 분석된다. 이러한 온톨로지는 인지 컴퓨팅 및 엔지니어링을 통해 구현되는데 이는 소프트웨어 개발측면에서 정보 에이전트 및 인지 아키텍쳐를 설계하고 탐구하여 업무 및 작업의 처리에 보다 유연하고 인간적인 지능에 가까운 성능을 개발하는 것을 목표로 한다. 인지기반 솔루션은 이러한 인지프로세스를 기계 또는 시스템에 도입함으로써 인간의 학습과 수행능력을 보강하고 돕기 위해 설계된다. 그러나 인지 솔루션이 인간의 전문 지식을 대체 할 의도가 아님을 분명히해야 한다. 사람과 기계는 각기 다른 방식으로 뛰어난데, 예를 들어 사람들은 상식, 도덕, 상상력, 동정심, 추상화, 딜레마, 꿈꾸는 것, 및 일반화에 뛰어나며, 반면에 인지 시스템은 정보의 저장과 인출 그리고 위치 파악, 패턴 식별, 자연어분석, 기계 학습, 편견 제거 및 반복적 작업수행 능력에 뛰어나다.</p>
+<p>디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까? HR프로세스와 기능에 대해 인공지능의 역할 논의가 활발하게 진행되는 가운데 컨설턴트인 진 마이스터는 인공지능의 시대에 따른 HR의 10가지 트렌드를 언급하며 HR이 인공지능 시대에 준비해야한다고 주장하였다(1. AI와 인간의 지능을 통한 후보자 경험 향상, 2. 독창적인 인간의 기술의 중요성, 3. 인공지능을 통한 근로자의 성과 향상, 4. 인공지능을 통한 새로운 일자리 창출, 5. 인공지능에 준비된 인력의 중요성, 6. 기술기반 고용, 7. 의미를 위한 거래, 8. 두 가지 직원 혜택 : 자연광(업무환경) 경력 개발, 9.가상현실을 통한 기업교육의 변화, 10. 미래를 준비하는 팀 스포츠). 또한 6,000 명의 경영진을 대상으로 한 IBM의 2017 년 설문 조사에 따르면, HR 임원의 54 %가 인지 컴퓨팅이 HR 의 주요 역할에 영향을 줄 것이라고 답했으며, 조사대상자의 66%에 달하는 CEO들이 인지 컴퓨팅이 HR의 가치를 크게 높일 수 있다고 답헀다. 이는 조사대상자중 절반이상의 HR 경영진이 인지컴퓨팅을 통한 솔루션이 HR의 변화에 핵심임을 인식함을 반증한다. 그러나 모두가 이에 긍정적인 것만은 아닌데, HRPA (Human Resources Professional Association)는 2017 년 설문 조사에 따르면 응답자의 52 %가 향후 5 년간 HR 부서에서 AI를 채택 할 가능성이 낮다고 응답했는데, 채택가능성이 낮다고 응답한 응답자의 36%는 조직 규모, 28 %는 기술의 필요성에 대한 고위 경영진의 인식 때문이라고 답했다. 그러나 어떻게 이런 기술이 산업과 경영전반에 어떤 영향을 줄 것인가, 또는 일터에서의 인간과 시스템이 어떻게 상호작용을 해야할 것인가에 대한 적절한 논의는 아직 찾아보기 힘들다. 이렇듯 인지컴퓨팅, 인지솔루션, AI의 HR도입에 대한 논의는 찬반이 갈리고 있는데 이를 통해 앞으로 HR이 나아가야할 방향과 목표를 다음과 같이 요약해 보았다. • HR 영향력을 최적화하여 실질적인 ROI에 기반한 의사 결정을 통해 경쟁 우위를 입증. • 직원 경험을 만들어 인재를 유치, 유지 및 관리하기위한 전략의 수정. • 데이터에 기반한 학습 분석과 적응학습을 통해 제시된 학습경로를 활용하는 직원과 리더의 육성.</p>
+<p>AI의 도입을 통한 자동화는 반복적이고 부가가치가 낮은 작업을 자동화하여 인간에 의해 수행되어야 할 전략적 업무에 집중할 수 있도록 도울 수 있다. 예를들어, 새로운 직원의 온보딩과정에서 자원의 할당 및 활용을 AI를 통해 처리함으로써 사람에 의해 수행되어야 할 멘토링과 같은 전략적 면대면 업무에 집중할 수 있다.</p>
+<p>아직은 인공지능을 통한 채용이라는 측면에는 부정적인 의견이 많다. 그러나 인지컴퓨팅을 통한 솔루션의 도입은 HR 운영의 복잡한 프로세스를 단순화하며 개인화 된 학습 및 경력 개발을 통해 기존 인재를 강화하거나 조직에 필요한 인재들을 상시 탐지하고 선별하는데 도움을 줄 수 있다. 데이터 중심의 인지 시스템은 인적자원 관리자가 조직에서 철학적으로 맞는 지원자 및 직원의 속성과 특성을 인식하는 것을 돕는다. 이는 인지컴퓨팅솔루션 또는 AI를 통해 기업이 여러 데이터 소스를 활용해 각 사업과 프로젝트에 적합한 인재의 프로파일링을 제시하고 이를 면접에 활용함으로써 인터뷰어의 의사결정을 돕는 솔루션을 생각해 볼 수 있다. 또한 인터뷰 담당자가 인터뷰 과정에서 생기는 질문, 태도, 접근방식등을 수집하여 채용 담당자들을 위한 교육 및 학습에도 활용할 수 있는 계기가 생긴다.</p>
+<p>경력개발의 측면에서도 AI의 도입을 생각해 볼수 있다. 많은 기업들이 직원들에게 동기를 부여하고 참여를 유지하기 위해 내부 이동이나 직무 순환 프로그램을 만드는 것이 중요하다고 인식하고 있다. 개인의 차원에서 조직원들에게 주기적으로 변화하는 조직 내 직무들과 그 직무들에 필요한 역량들을 파악하고 자신의 특성을 가장 잘 살릴 수 있는 경로를 탐색하여 제시하거나 개인이 설계한 경력의 경로를 이루기 위한 역량과 경험 및 교육 경로를 설계하고 추천해주는 시스템이 예라 할 수 있다. 이는 조직의 차원에서 조직내 인력의 배치와 구성, 순환을 효율적으로 관리할 수 있는 계기가 된다.</p>
+<p>AI의 도입에 있어 학습은 조직과 학교를 막론하고 가장 넓게, 그리고 적극적으로 수용되고 있는 분야이다. 대표적인 예로 인지기반 인텔리전트 튜토링 시스템을 들 수 있다. 트레이닝에서 학습자의 기술의 숙련도와 지식은 선언적지식의 영역에서 반복학습을 통해 절차적 지식의 영역으로 심화되어간다. 이는 학습곡선을 통해 나타나는데, 반복을 통해 문제해결 시간이 단축되는 비율과 기술감소(Skill decay)의 추정을 가능하게 하였다. 이러한 학습곡선과 기술감소 패턴을 통해 학습자의 학습패턴 분석과 적응학습을 통한 맞춤형 커리큘럼의 제공 그리고 이후 어떤 학습을 하여야할지에 대한 추천시스템을 생각해 볼 수 있다.</p>
+<p>위에 제시한 사례들을 통합적으로 제시하는 솔루션은 아직까지는 요원한 상태이다. 그러나 이를 준비하기 위해 고민해야할 문제들이 있는데 다음과 같다.</p>
+<ol type="1">
+<li>작업수준에서의 HR기능에 대한 분석,</li>
+<li>인간-AI의 협업을 염두에 둔 직무/직능의 설계,</li>
+<li>분석-적용-피드백을 통합하는 프레임.</li>
+</ol>
+<p>인공지능으로 대표되는 많은 기술들과 솔루션들은 사람의 인지프로세스를 모방하여 디자인 되었다. 그러나 특정 영역의 직무와 작업은 그 영역의 독특한 작업방식과 철학을 반영하기도 한다. 때문에 이를 충분히 학습하지 못한 인공지능의 도입은 의도와 다른 결과를 가져올 가능성이 있다. 때문에 HR의 기능에서 단순하고 반복적인 업무들에 대한 표준화의 작업과 처리방식에 대한 계획과 디자인이 필요하다. 앞서 밝힌대로 인지기반 솔루션은 인간의 학습과 수행능력을 보강하고 돕기 위해 설계되어야 하며 인간의 전문 지식을 대체 할 의도가 아니다. 때문에 인간이 처리해야 할 업무의 플로우와 자동화를 통해 처리되는 업무사이에의 조율이 필요불가결 하다. 또한 각각의 단일 프로세스의 분석-적용-피드백을 통합하는 프레임의 설계가 선행되어야 한다.</p>
+<p>디지털 환경으로의 전환과 AI, 업무자동화라는 이슈에서 이들이 HR에 의미하는 것은 무엇일까? 이를 답하기 위해 필자는 어떻게 AI가 HR의 기능과 역할에 변화를 가져올 것를 인지과학과 기계학습을 채용이나 경력개발로의 적용을 통해 설명하였다. 인공지능의 성능이라는 것이 아직까지는 고수준의 인지체계를 모방하는 수준까지는 다다르지 못했지만, 특정분야에서 특정 인지프로세스에서는 탁월한 성능을 보여주고 있으며 이를 통한 새로운 비지니스 기회들이 창출되고 있으며, 인적자원관리 및 개발의 측면에서도 인공지능의 도입을 통한 여러가지 긍정적인 측면들에 대한 논의가 시작되고 있는 시점이며 이를 준비해야 한다는 목소리가 나오고 있다. 이 글에서는 AI를 HR에 도입할때의 3가지 목적과 방향들을 제시하고 (1. HR 영향력을 최적화하여 실질적인 ROI에 기반한 의사 결정을 통해 경쟁 우위를 입증, 2) 직원 경험을 만들어 인재를 유치, 유지 및 관리하기위한 전략의 수정, 3) 데이터에 기반한 학습 분석과 적응학습을 통해 제시된 학습경로를 직원과 리더의 육성) 이를 준비하기위한 3가지 필요성을 제시하였다 (1. 작업수준에서의 HR기능에 대한 분석의 필요성, 2) 인간-AI의 협업을 염두에 둔 직무/직능의 디자인, 3) 분석-적용-피드백을 통합하는 프레임의 필요성).</p>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>

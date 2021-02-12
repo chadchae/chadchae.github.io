@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:distill="https://distill.pub/journal/" version="2.0">
+  <channel>
+    <title>Chad (Chungil) Chae</title>
+    <link>https://chadchae.github.io/</link>
+    <atom:link href="https://chadchae.github.io/kor.xml" rel="self" type="application/rss+xml"/>
+    <description>Chad (Chungil) Chae
+</description>
+    <image>
+      <title>Chad (Chungil) Chae</title>
+      <url>https://chadchae.github.io/img/logo_favicon.png</url>
+      <link>https://chadchae.github.io/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>AI for HR/HRD</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2019-09-24-hrandai</link>
+      <description>디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?</description>
+      <category>TEMP</category>
+      <guid>https://chadchae.github.io/kor/2019-09-24-hrandai</guid>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2019-09-24-hrandai/ai.png" medium="image" type="image/png" width="486" height="303"/>
+    </item>
+    <item>
+      <title>2018년을 보내며</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2018-12-17-bye-bye-2018</link>
+      <description>비러 스윗 (bitter sweet). 한 해를 소회하는 이 장면에서 이보다 더 나의 감정을 한 마디로 잘 요약할 다른 말이 있을까? 삶은 크고 작은 변화들의 연속이라지만 2018년 유독 올해 많은 변화들이 있었다. 생의 한 챕터가 넘어간다는 느낌이 이런것일까? 이전에 한살 두살 먹으며 한해 두해를 보내던 것과는 다른 감정이다. 감정적인 흐름으로는, 나의 한 해는 비참함과 자괴감으로 시작하여, 회복과 뜨거운 열정을 거쳐, 집착과 미련함을 겪고 마침내 자기연민으로 막을 내리는듯 싶다.</description>
+      <category>TEMP</category>
+      <guid>https://chadchae.github.io/kor/2018-12-17-bye-bye-2018</guid>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2018-12-17-bye-bye-2018/f1.png" medium="image" type="image/png" width="853" height="775"/>
+    </item>
+    <item>
+      <title>토픽모델링</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2018-12-17-topic-modeling</link>
+      <description>머신러닝책을 몇개 보면서 예제를 따라하고, 토픽모델링 관련 프로젝트 하면서 느낀점을 이야기하자면, 사회과학연구에서 특히 경영/교육/인적자원개발에 어떻게 적용해야 하는가는 주요한 질문이며 숙제이다.</description>
+      <category>TEMP</category>
+      <guid>https://chadchae.github.io/kor/2018-12-17-topic-modeling</guid>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2018-12-17-topic-modeling/theme.png" medium="image" type="image/png" width="721" height="468"/>
+    </item>
+    <item>
+      <title>HR Analytics에 대한 단상</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/kor/2018-12-17-whatishranaytics</link>
+      <description>HR Analytics 결국 인적자원분석 이걸 기존의 분석행태와 분리해 보고자 HR Analytics라는 영문이름을 고집했지만 글세 좀 미련한 짓이 아니였나 싶다. 지금 HR analytics 라고 불리우는것이 이전에 없었는가 하면 그건 또 아니고, 이게 브렌딩이 되면서 "HR analytics"라는 브렌드로서 정착되고 있다는 생각이 든다.</description>
+      <category>TEMP</category>
+      <guid>https://chadchae.github.io/kor/2018-12-17-whatishranaytics</guid>
+      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://chadchae.github.io/kor/2018-12-17-whatishranaytics/p1.png" medium="image" type="image/png" width="493" height="718"/>
+    </item>
+  </channel>
+</rss>

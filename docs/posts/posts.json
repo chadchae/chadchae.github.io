@@ -1,17 +1,21 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Chad (Chungil) Chae",
-    "description": "Welcome to our new blog, Chad (Chungil) Chae. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-02-11-new-start/",
+    "title": "New Start",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Chad (Chungil Chae)",
+        "name": "Chungil Chae",
         "url": "https://chadchae.github.io"
       }
     ],
-    "date": "2021-11-20",
-    "categories": [],
-    "preview": {},
-    "last_modified": "2021-02-11T21:16:39-03:00"
+    "date": "2021-02-11",
+    "categories": [
+      "ENG"
+    ],
+    "contents": "\nNew Start\n\n\n\n",
+    "preview": "https://pbs.twimg.com/profile_images/333263672/HOJPHxJtqNCWGIqcJO0vpw_400x400.jpg",
+    "last_modified": "2021-02-11T23:26:06-03:00",
+    "input_file": {}
   }
 ]
