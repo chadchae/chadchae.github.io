@@ -122,7 +122,6 @@ collections:
       hidden: false
     share: [facebook, twitter, linkedin]
     subscribe: _subscribe.html
-
 rss:
   full_content: true
 output: distill::distill_article

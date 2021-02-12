@@ -10,6 +10,7 @@
 # Site files
 *.yml
 *.Rmd
+build.sh
 
 # 폴더
 /_posts
