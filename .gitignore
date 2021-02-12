@@ -2,21 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+.gitignore
 
 # OS Files #
 .DS_Store
 
 # Site files
-_site.yml
-chad.Rmd
-chadchae.github.io_eng.Rproj
-index.Rmd
-project.Rmd
-publication.Rmd
-research.Rmd
-resource.Rmd
-service.Rmd
-teaching.Rmd
+*.yml
+*.Rmd
 
 # 폴더
 /_bib
