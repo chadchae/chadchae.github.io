@@ -1,5 +1,26 @@
 [
   {
+    "path": "kor/2021-02-12-newyearfrom2020to2021/",
+    "title": "2020년을 보내고 2021년을 맞으며",
+    "description": "2020년",
+    "author": [
+      {
+        "name": "Chungil Chae",
+        "url": "https://github.com/chadchae"
+      }
+    ],
+    "date": "2021-02-13",
+    "categories": [
+      "한해를 마치며"
+    ],
+    "contents": "\n\n세는 날로 2021년을 맞은지는 1달 반이 되어가지만 오늘은 설날 진정으로 2021년이다.\n\n\n\n",
+    "preview": "kor/2021-02-12-newyearfrom2020to2021/images/download.png",
+    "last_modified": "2021-02-12T13:57:08-03:00",
+    "input_file": {},
+    "preview_width": 466,
+    "preview_height": 200
+  },
+  {
     "path": "kor/2020-08-29-wku0/",
     "title": "중국에서 교수하기 [1]: 포스닥 후 귀국 그리고 컨텍까지",
     "description": "중국 케인-원저우 대학 컨텍에서 임용까지",
