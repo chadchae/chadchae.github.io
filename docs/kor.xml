@@ -23,105 +23,6 @@
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>[HRD분석] 교육요구도 조사 Borich and Locus for Focus</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-12-20191212borichandlocusforfocus</link>
-      <description>내용</description>
-      <category>HRD</category>
-      <category>분석</category>
-      <category>교육요구도</category>
-      <category>Borich</category>
-      <category>Locus for Focus</category>
-      <guid>https://chadchae.github.io/kor/2019-12-12-20191212borichandlocusforfocus</guid>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[R tip] 분석전 셋팅 (폴더, 패키지, 등등) </title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-13-rtip0</link>
-      <description>R에서 분석을 시작하기전에 해야할 기본 셋팅들에 대해 정리</description>
-      <category>R tip</category>
-      <category>한글처리</category>
-      <guid>https://chadchae.github.io/kor/2019-12-13-rtip0</guid>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[R tip] Mac에서 한글사용 관련 이슈 정리</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-13-rtip1</link>
-      <description>macOS에서 한글 출력에 대한 이슈와 해결방법들을 정리한 문서</description>
-      <category>R tip</category>
-      <category>한글처리</category>
-      <guid>https://chadchae.github.io/kor/2019-12-13-rtip1</guid>
-      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>managingcodebook</title>
-      <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-20-managingcodebook</link>
-      <description>A short description of the post.</description>
-      <guid>https://chadchae.github.io/kor/2019-12-20-managingcodebook</guid>
-      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>챕터3: 네트웍 데이터 관리</title>
-      <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-19-ch3ugna</link>
-      <description>A user's guide to network analysis in R 책의 챕터 3 서머리</description>
-      <guid>https://chadchae.github.io/kor/2019-12-19-ch3ugna</guid>
-      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>챕터2: 네트워크 분석 'Five Number Summary'</title>
-      <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-18-ch2ugna</link>
-      <description>A user's guide to network analysis in R 책의 챕터 2 서머리.</description>
-      <guid>https://chadchae.github.io/kor/2019-12-18-ch2ugna</guid>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2019-12-18-ch2ugna/ch2ugna_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
-    </item>
-    <item>
-      <title>챕터1: R에서 소셜네트워크 분석 소개</title>
-      <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-17-ch1ugna</link>
-      <description>A user's guide to network analysis in R 책의 챕터 1 서머리</description>
-      <guid>https://chadchae.github.io/kor/2019-12-17-ch1ugna</guid>
-      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>[분석절차] Multiple Regression 분석 절차 및 코드</title>
-      <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-12-16-regression</link>
-      <description>A short description of the post.</description>
-      <category>Regression</category>
-      <category>Multiple Regression</category>
-      <category>Code</category>
-      <guid>https://chadchae.github.io/kor/2019-12-16-regression</guid>
-      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2019-12-16-regression/preview.png" medium="image" type="image/png" width="1200" height="794"/>
-    </item>
-    <item>
-      <title>HR Analytics 측면에서의 텍스트자료에 대한 분석</title>
-      <dc:creator>Chad</dc:creator>
-      <dc:creator>이재은</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight</link>
-      <description>HR에 연관성이 높으면서도 자주 간과되는 데이터의 유형이 있다. 바로 질적자료유형이라 불리는 텍스트 자료들이다. 이러한 자료들은 기존에는 분석과 처리에 어려움이 있었기에 자주 생성되고 곧 버려지는 데이터였다. 또한 HR분석을 고려함에 있어 실무에서의 사례는 복잡하며 고려해야할 변수는 다양하고 데이터의 크기는 크다</description>
-      <category>TEMP</category>
-      <guid>https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight</guid>
-      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2019-11-21-2019topicmodelhrinsight/f1.png" medium="image" type="image/png" width="626" height="311"/>
-    </item>
-    <item>
-      <title>AI for HR/HRD</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2019-09-24-hrandai</link>
-      <description>디지털 환경으로 전환되는 일터에서 업무 및 학습 방식의 변화는 선택이 아니라 필수처럼 느껴진다. 이러한 변화를 촉진하는 요인으로는 변화하는 사람들의 요구, 새로운 기술에 대한 시장 압력, 대규모 데이터 과부화등을 들 수 있다. 이것이 HR에 의미하는 것은 무엇일까?</description>
-      <category>TEMP</category>
-      <guid>https://chadchae.github.io/kor/2019-09-24-hrandai</guid>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2019-09-24-hrandai/ai.png" medium="image" type="image/png" width="486" height="303"/>
-    </item>
-    <item>
       <title>2018년을 보내며</title>
       <dc:creator>Chad</dc:creator>
       <link>https://chadchae.github.io/kor/2018-12-17-bye-bye-2018</link>
@@ -130,26 +31,6 @@
       <guid>https://chadchae.github.io/kor/2018-12-17-bye-bye-2018</guid>
       <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
       <media:content url="https://chadchae.github.io/kor/2018-12-17-bye-bye-2018/f1.png" medium="image" type="image/png" width="853" height="775"/>
-    </item>
-    <item>
-      <title>토픽모델링</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2018-12-17-topic-modeling</link>
-      <description>머신러닝책을 몇개 보면서 예제를 따라하고, 토픽모델링 관련 프로젝트 하면서 느낀점을 이야기하자면, 사회과학연구에서 특히 경영/교육/인적자원개발에 어떻게 적용해야 하는가는 주요한 질문이며 숙제이다.</description>
-      <category>TEMP</category>
-      <guid>https://chadchae.github.io/kor/2018-12-17-topic-modeling</guid>
-      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2018-12-17-topic-modeling/theme.png" medium="image" type="image/png" width="721" height="468"/>
-    </item>
-    <item>
-      <title>HR Analytics에 대한 단상</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/kor/2018-12-17-whatishranaytics</link>
-      <description>HR Analytics 결국 인적자원분석 이걸 기존의 분석행태와 분리해 보고자 HR Analytics라는 영문이름을 고집했지만 글세 좀 미련한 짓이 아니였나 싶다. 지금 HR analytics 라고 불리우는것이 이전에 없었는가 하면 그건 또 아니고, 이게 브렌딩이 되면서 "HR analytics"라는 브렌드로서 정착되고 있다는 생각이 든다.</description>
-      <category>TEMP</category>
-      <guid>https://chadchae.github.io/kor/2018-12-17-whatishranaytics</guid>
-      <pubDate>Mon, 17 Dec 2018 00:00:00 +0000</pubDate>
-      <media:content url="https://chadchae.github.io/kor/2018-12-17-whatishranaytics/p1.png" medium="image" type="image/png" width="493" height="718"/>
     </item>
   </channel>
 </rss>
