@@ -6,7 +6,7 @@ favicon: img/logo_favicon.png
 output_dir: "docs"
 base_url: https://chadchae.github.io/
 repository_url: https://github.com/chadchae/
-creative_commons: CC BY
+creative_commons: "CC BY"
 exclude: ["readme.md", "LICENSE"]
 navbar:
   logo: img/logo.png
