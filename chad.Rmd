@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Updated Feb 12, 2021
+Updated `r format(Sys.time(), '%d %B, %Y')`
 
 [Download PDF](https://chadchae.github.io/_chadchaekor_asset_resource/chadcv.pdf)
 
@@ -28,6 +28,6 @@ Updated Feb 12, 2021
 
 An assistant professor at Department of Management, Marketing and International Business, College of Business and Public Management (CBPM), Kean University (Wenzhou, China)
 
-+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| ![](img/dep_info.png)         | -   **CBPM B223, 88 Daxue Rd., Ouhai, Wenzhou, Zhejiang Province, China 325060** **(+86 577) 5587-0719\| [cchae\@wku.edu.cn](mailto:cchae@wku.edu.cn){.email}** |
-+-------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| [![](img/dep_info.png)](https://wku.edu.cn/en/faculty/chungil-chae-chad-ph-d/) | -   **CBPM B223, 88 Daxue Rd., Ouhai, Wenzhou, Zhejiang Province, China 325060** **(+86 577) 5587-0719\| [cchae\@wku.edu.cn](mailto:cchae@wku.edu.cn){.email}** |
++--------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
