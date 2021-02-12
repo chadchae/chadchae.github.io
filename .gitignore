@@ -2,3 +2,24 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# OS Files #
+.DS_Store
+
+# Site files
+_site.yml
+chad.Rmd
+chadchae.github.io_eng.Rproj
+index.Rmd
+project.Rmd
+publication.Rmd
+research.Rmd
+resource.Rmd
+service.Rmd
+teaching.Rmd
+
+# 폴더
+/_bib
+/_data
+/_posts
+/_recourse

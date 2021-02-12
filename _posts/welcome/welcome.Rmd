@@ -4,14 +4,15 @@ description: |
   Welcome to our new blog, Chad (Chungil) Chae. We hope you enjoy 
   reading what we have to say!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
-date: 02-11-2021
+  - name: Chad (Chungil Chae)
+    url: https://chadchae.github.io
+    affiliation: Wenzhou-Kean University
+    affiliation_url: https://wku.edu.cn/en/faculty/chungil-chae-chad-ph-d/
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   radix::radix_article:
-    self_contained: false
+    self_contained: true
+    toc: true
 ---
 
 ```{r setup, include=FALSE}
