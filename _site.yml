@@ -8,7 +8,9 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Chad"
-      href: about.html
+      href: chad.html
+    - text: "Publication"
+      href: publication.html
     - text: "Research"
       href: research.html
     - text: "Teaching"
@@ -18,7 +20,9 @@ navbar:
     - text: "Project"
       href: project.html
     - text: "Resources"
-      href: about.html
+      href: resource.html
+    - text: "ENG"
+      href: https://chadchae.github.io/
     - text: "KOR"
-      href: about.html
+      href: https://chadchae.github.io/chadchaekor/
 output: radix::radix_article

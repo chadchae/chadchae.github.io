@@ -1,0 +1,19 @@
+---
+title: "Researches"
+description: |
+  Some additional details about the blog
+author:
+  - name: Chad (Chungil Chae)
+    url: https://chadchae.github.io
+    affiliation: Wenzhou-Kean University
+    affiliation_url: https://wku.edu.cn/en/faculty/chungil-chae-chad-ph-d/
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  radix::radix_article:
+    self_contained: true
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
