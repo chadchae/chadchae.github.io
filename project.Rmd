@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+listing: pr
 description: |
   Some additional details about the blog
 author:

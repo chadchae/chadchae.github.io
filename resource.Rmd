@@ -17,3 +17,16 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+# Github Blogs
+
+-   <https://chadchae.github.io/blog_coding/>
+-   <https://chadchae.github.io/blog_method/>
+-   <https://chadchae.github.io/blog_opinion/>
+-   <https://chadchae.github.io/blog_review/>
+-   <https://chadchae.github.io/blog_study/>
+
+# Organization
+
+-   [https://people-analytics.github.io/](https://people-analytics.github.io/study1/)
+-   <https://people-analytics.github.io/study1/>

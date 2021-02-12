@@ -1,5 +1,6 @@
 ---
 title: "Publication"
+listing: pu
 description: |
   Some additional details about the blog
 author:

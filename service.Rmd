@@ -1,5 +1,6 @@
 ---
 title: "Services"
+listing: se
 description: |
   Some additional details about the blog
 author:

@@ -1,5 +1,6 @@
 ---
 title: "Teachings"
+listing: te
 description: |
   Some additional details about the blog
 author:
