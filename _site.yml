@@ -1,8 +1,13 @@
 name: "chadchae_eng"
 title: "Chad (Chungil) Chae"
+favicon: img/logo_favicon.png
 description: |
   Chad (Chungil) Chae
 output_dir: "docs"
+base_url: https://chadchae.github.io/
+repository_url: https://github.com/chadchae/
+creative_commons: CC BY
+exclude: ["readme.md", "LICENSE"]
 navbar:
   right:
     - text: "Home"
@@ -25,4 +30,13 @@ navbar:
       href: https://chadchae.github.io/
     - text: "KOR"
       href: https://chadchae.github.io/chadchaekor/
+collections:
+  posts:
+    feed_items_max: 50
+    disqus: 
+      shortname: chadchae
+      hidden: false
+    share: [facebook, twitter, linkedin]
+    subscribe: _subscribe.html
 output: radix::radix_article
+
