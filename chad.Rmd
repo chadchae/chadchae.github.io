@@ -7,7 +7,7 @@ author:
     url: https://chadchae.github.io
     affiliation: Wenzhou-Kean University
     affiliation_url: https://wku.edu.cn/en/faculty/chungil-chae-chad-ph-d/
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
   distill::distill_article:
     self_contained: true
@@ -20,7 +20,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Updated `r format(Sys.time(), '%d %B, %Y')`
+Updated '`r format(Sys.Date(), "%B %d, %Y")`'
 
 [Download PDF](https://chadchae.github.io/_chadchaekor_asset_resource/chadcv.pdf)
 
@@ -34,6 +34,6 @@ An assistant professor at Department of Management, Marketing and International 
 
 # Objectives
 
-# Teaching 
+# Teaching
 
 # Research

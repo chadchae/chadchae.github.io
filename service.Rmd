@@ -1,6 +1,6 @@
 ---
 title: "Services"
-listing: se
+listing: s
 description: |
   Some additional details about the blog
 author:
@@ -8,7 +8,7 @@ author:
     url: https://chadchae.github.io
     affiliation: Wenzhou-Kean University
     affiliation_url: https://wku.edu.cn/en/faculty/chungil-chae-chad-ph-d/
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
 output:
   distill::distill_article:
     self_contained: true

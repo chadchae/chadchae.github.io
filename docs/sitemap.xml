@@ -2,66 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://chadchae.github.io/chad.html</loc>
-    <lastmod>2021-02-12T13:20:10-03:00</lastmod>
+    <lastmod>2021-02-13T12:58:36-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/eng.html</loc>
-    <lastmod>2021-02-12T12:23:25-03:00</lastmod>
+    <loc>https://chadchae.github.io/en.html</loc>
+    <lastmod>2021-02-13T13:33:29-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/</loc>
-    <lastmod>2021-02-11T22:53:18-03:00</lastmod>
+    <lastmod>2021-02-13T13:31:11-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/kor.html</loc>
-    <lastmod>2021-02-11T23:19:58-03:00</lastmod>
+    <loc>https://chadchae.github.io/kr.html</loc>
+    <lastmod>2021-02-13T13:33:44-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/project.html</loc>
-    <lastmod>2021-02-12T12:06:13-03:00</lastmod>
+    <lastmod>2021-02-13T13:30:42-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/publication.html</loc>
-    <lastmod>2021-02-12T13:37:42-03:00</lastmod>
+    <lastmod>2021-02-13T13:31:11-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/research.html</loc>
-    <lastmod>2021-02-12T12:06:02-03:00</lastmod>
+    <lastmod>2021-02-13T13:31:12-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/resource.html</loc>
-    <lastmod>2021-02-12T12:08:32-03:00</lastmod>
+    <lastmod>2021-02-13T13:01:37-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/service.html</loc>
-    <lastmod>2021-02-12T12:06:32-03:00</lastmod>
+    <lastmod>2021-02-13T13:34:16-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/teaching.html</loc>
-    <lastmod>2021-02-12T12:06:42-03:00</lastmod>
+    <lastmod>2021-02-13T13:31:12-03:00</lastmod>
   </url>
   <url>
     <loc>https://chadchae.github.io/posts/2021-02-11-new-start/</loc>
     <lastmod>2021-02-12T13:07:29-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/kor/2021-02-12-newyearfrom2020to2021/</loc>
+    <loc>https://chadchae.github.io/kr/2021-02-12-newyearfrom2020to2021/</loc>
     <lastmod>2021-02-12T13:57:08-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/kor/2020-08-29-wku0/</loc>
+    <loc>https://chadchae.github.io/kr/2020-08-29-wku0/</loc>
     <lastmod>2021-02-12T13:48:20-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/kor/2018-12-17-bye-bye-2018/</loc>
+    <loc>https://chadchae.github.io/kr/2018-12-17-bye-bye-2018/</loc>
     <lastmod>2021-02-12T14:06:56-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/eng/2021-02-11-new-start/</loc>
+    <loc>https://chadchae.github.io/en/2021-02-11-new-start/</loc>
     <lastmod>2021-02-11T23:26:06-03:00</lastmod>
   </url>
   <url>
-    <loc>https://chadchae.github.io/pu/2021-02-12-lessons-from-surveying-tutoring-tools-2021-1/</loc>
+    <loc>https://chadchae.github.io/pub/2021-02-12-lessons-from-surveying-tutoring-tools-2021-1/</loc>
     <lastmod>2021-02-12T12:15:43-03:00</lastmod>
   </url>
 </urlset>

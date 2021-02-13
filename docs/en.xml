@@ -3,7 +3,7 @@
   <channel>
     <title>Chad (Chungil) Chae</title>
     <link>https://chadchae.github.io/</link>
-    <atom:link href="https://chadchae.github.io/publication.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://chadchae.github.io/en.xml" rel="self" type="application/rss+xml"/>
     <description>Chad (Chungil) Chae
 </description>
     <image>
@@ -12,14 +12,16 @@
       <link>https://chadchae.github.io/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Lessons from Surveying Tutoring Tools-2021-1</title>
+      <title>New Start</title>
       <dc:creator>Chungil Chae</dc:creator>
-      <link>https://chadchae.github.io/pub/2021-02-12-lessons-from-surveying-tutoring-tools-2021-1</link>
+      <link>https://chadchae.github.io/en/2021-02-11-new-start</link>
       <description>A short description of the post.</description>
-      <guid>https://chadchae.github.io/pub/2021-02-12-lessons-from-surveying-tutoring-tools-2021-1</guid>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      <category>ENG</category>
+      <guid>https://chadchae.github.io/en/2021-02-11-new-start</guid>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://pbs.twimg.com/profile_images/333263672/HOJPHxJtqNCWGIqcJO0vpw_400x400.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
