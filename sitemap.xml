@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://chadchae.github.io/</loc>
+    <lastmod>2018-12-02T04:40:10-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chadchae.github.io/pg_applications.html</loc>
+    <lastmod>2018-11-27T17:55:30-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chadchae.github.io/pg_contributors.html</loc>
+    <lastmod>2018-12-02T04:39:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chadchae.github.io/posts/2018-12-02-justtalk/</loc>
+    <lastmod>2018-12-02T17:22:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://chadchae.github.io/posts/2018-12-02-start/</loc>
+    <lastmod>2018-12-02T16:51:32-05:00</lastmod>
+  </url>
+</urlset>
