@@ -1,0 +1,61 @@
+[Writing Post]
+radix::create_post("TITLE")
+
+_site 페이지가 bild website할때마다 재 생성됨으로 git init부터 항상 다시 시작해야 함
+
+[문서업데이트]
+knit 를 해야만 개별 아티클들이 업데이트 됨
+
+[웹사이트 업데이트]
+build site
+
+[Terminal]
+cd _site
+git init
+git add .
+git commit -m "메시지"
+git remote add origin https://github.com/chadchae/chadchae.github.io.git
+git push -f origin master
+cd ..
+
+
+…or create a new repository on the command line
+
+echo "# chadchae.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/chadchae/chadchae.github.io.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/chadchae/chadchae.github.io.git
+git push -u origin master
+
+
+
+---
+title: "HR Analytics 측면에서의 텍스트자료에 대한 분석"
+description: |
+  HR에 연관성이 높으면서도 자주 간과되는 데이터의 유형이 있다. 바로 질적자료유형이라 불리는 텍스트 자료들이다. 이러한 자료들은 기존에는 분석과 처리에 어려움이 있었기에 자주 생성되고 곧 버려지는 데이터였다. 또한 HR분석을 고려함에 있어 실무에서의 사례는 복잡하며 고려해야할 변수는 다양하고 데이터의 크기는 크다
+author:
+  - name: Chad
+    url: https://github.com/chadchae
+    affiliation: ChadLab
+    affiliation_url: https://chadchae.github.io
+  - name: 이재은
+    affiliation: 건국대학교
+date: 11-21-2019
+preview: f1.png
+categories:
+  - Opinion
+  - HR
+  - Analysis
+bibliography: p1.bib
+output:
+  radix::radix_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+---
