@@ -3,7 +3,7 @@
   <channel>
     <title>Chad (Chungil) Chae</title>
     <link>https://chadchae.github.io/</link>
-    <atom:link href="https://chadchae.github.io/project.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://chadchae.github.io/advising.xml" rel="self" type="application/rss+xml"/>
     <description>Chad (Chungil) Chae
 </description>
     <image>
@@ -13,5 +13,13 @@
     </image>
     <generator>Distill</generator>
     <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>MyungcheolHong</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/ad/2021-02-24-myungcheolhong</link>
+      <description>A short description of the post.</description>
+      <guid>https://chadchae.github.io/ad/2021-02-24-myungcheolhong</guid>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
   </channel>
 </rss>

@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "path": "t/2021-02-24-mgs20302020fa/",
+    "title": "MGS2030_2020_FA",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Chad",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-24T01:57:48-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "t/2021-02-24-mgs30012021sp/",
+    "title": "MGS3001_2021_SP",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Chad",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [],
+    "contents": "\nCourse Informaiton\nTeaching Assistants\nMGS 3001: Python Programming for Business\n\nJason | [CN name] | [Link]\nBrief Bio\n\nAdam | [CN name] | [Link]\nBrief Bio\n\nTarence | [CN name] | [Link]\nBrief Bio\n\n??? | [CN name] | [Link]\nBrief Bio\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-24T02:00:16-03:00",
+    "input_file": {}
+  },
+  {
+    "path": "t/2021-02-24-mgs30012021wi/",
+    "title": "MGS3001_2021_WI",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Chad",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-24",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-24T01:57:33-03:00",
+    "input_file": {}
+  }
+]
