@@ -1,8 +1,8 @@
 [
   {
-    "path": "t/2021-02-24-mgs20302020fa/",
-    "title": "MGS2030_2020_FA",
-    "description": "A short description of the post.",
+    "path": "t/2021-02-24-mgs30012021sp/",
+    "title": "MGS3001: Python Programming for Business, Spring 2021",
+    "description": "Programming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python's built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.",
     "author": [
       {
         "name": "Chad",
@@ -11,43 +11,43 @@
     ],
     "date": "2021-02-24",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\nCourse Information\nMGS-3001 PYTHON PRGMG FOR BUSINESS (3 Credits)\nProgramming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python’s built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.\nRequisites: Prerequisite(s): CPS 1032 and MATH 1044 - Must be completed prior to taking this course.\nTeaching Assistants\nMGS 3001: Python Programming for Business\n\nJason | [CN name] | [Link]\nBrief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio\n\nAdam | [CN name] | [Link]\nBrief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio\n\nTarence | [CN name] | [Link]\nBrief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio\n\nSivan | 沈易凡 | [Link]\nBrief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio Brief Bio\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-24T01:57:48-03:00",
+    "last_modified": "2021-02-25T15:17:05-03:00",
     "input_file": {}
   },
   {
-    "path": "t/2021-02-24-mgs30012021sp/",
-    "title": "MGS3001_2021_SP",
-    "description": "A short description of the post.",
+    "path": "t/2021-02-24-mgs30012021wi/",
+    "title": "MGS3001: Python Programming for Business, Winter 2021",
+    "description": "Programming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python's built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.",
     "author": [
       {
         "name": "Chad",
         "url": {}
       }
     ],
-    "date": "2021-02-24",
+    "date": "2021-02-23",
     "categories": [],
-    "contents": "\nCourse Informaiton\nTeaching Assistants\nMGS 3001: Python Programming for Business\n\nJason | [CN name] | [Link]\nBrief Bio\n\nAdam | [CN name] | [Link]\nBrief Bio\n\nTarence | [CN name] | [Link]\nBrief Bio\n\nSivan | 沈易凡 | [Link]\nBrief Bio\n\n\n\n",
+    "contents": "\n{r setup, include=FALSE} knitr::opts_chunk$set(echo = FALSE)\nCourse Information\nMGS-3001 PYTHON PRGMG FOR BUSINESS (3 Credits)\nProgramming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python’s built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.\nRequisites: Prerequisite(s): CPS 1032 and MATH 1044 - Must be completed prior to taking this course.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-25T04:46:19-03:00",
-    "input_file": "mgs30012021sp.utf8.md"
+    "last_modified": "2021-02-25T15:16:42-03:00",
+    "input_file": {}
   },
   {
-    "path": "t/2021-02-24-mgs30012021wi/",
-    "title": "MGS3001_2021_WI",
-    "description": "A short description of the post.",
+    "path": "t/2021-02-24-mgs20302020fa/",
+    "title": "MGS2030: Principles of Management, Fall 2020",
+    "description": "This course is designed to explain the contemporary management challenges stemming from a changing work environment, globalization, new technological, developments and an increasingly diverse workforce. It identifies and reviews critical managemetn pricniples involved in planning, organizing, leading and controlling. Students willlearn to apply their knowledge to recognize, analyze and solve the complex problems of the contemporary mangemeent context.",
     "author": [
       {
         "name": "Chad",
         "url": {}
       }
     ],
-    "date": "2021-02-24",
+    "date": "2021-02-22",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\nCourse Information\nMGS-3001 PYTHON PRGMG FOR BUSINESS (3 Credits)\nThis course is designed to explain the contemporary management challenges stemming from a changing work environment, globalization, new technological, developments and an increasingly diverse workforce. It identifies and reviews critical managemetn pricniples involved in planning, organizing, leading and controlling. Students willlearn to apply their knowledge to recognize, analyze and solve the complex problems of the contemporary mangemeent context.\nRequisites: Prerequisite(s): ENG*1030 and COMM*1402 - Must be completed prior to taking this course.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-24T01:57:33-03:00",
+    "last_modified": "2021-02-25T15:16:58-03:00",
     "input_file": {}
   }
 ]

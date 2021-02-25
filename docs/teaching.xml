@@ -14,87 +14,28 @@
     <generator>Distill</generator>
     <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>MGS2030_2020_FA</title>
-      <dc:creator>Chad</dc:creator>
-      <link>https://chadchae.github.io/t/2021-02-24-mgs20302020fa</link>
-      <description>A short description of the post.</description>
-      <guid>https://chadchae.github.io/t/2021-02-24-mgs20302020fa</guid>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MGS3001_2021_SP</title>
+      <title>MGS3001: Python Programming for Business, Spring 2021</title>
       <dc:creator>Chad</dc:creator>
       <link>https://chadchae.github.io/t/2021-02-24-mgs30012021sp</link>
-      <description>
-
-
-&lt;h1 id="course-informaiton"&gt;Course Informaiton&lt;/h1&gt;
-&lt;h1 id="teaching-assistants"&gt;Teaching Assistants&lt;/h1&gt;
-&lt;h3 id="mgs-3001-python-programming-for-business"&gt;MGS 3001: Python Programming for Business&lt;/h3&gt;
-&lt;table style="width:99%;"&gt;
-&lt;colgroup&gt;
-&lt;col width="29%" /&gt;
-&lt;col width="69%" /&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr class="odd"&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Jason | [CN name] | [Link]&lt;/p&gt;
-&lt;p&gt;Brief Bio&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table style="width:99%;"&gt;
-&lt;colgroup&gt;
-&lt;col width="29%" /&gt;
-&lt;col width="69%" /&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr class="odd"&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Adam | [CN name] | [Link]&lt;/p&gt;
-&lt;p&gt;Brief Bio&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table style="width:99%;"&gt;
-&lt;colgroup&gt;
-&lt;col width="29%" /&gt;
-&lt;col width="69%" /&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr class="odd"&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Tarence | [CN name] | [Link]&lt;/p&gt;
-&lt;p&gt;Brief Bio&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col width="45%" /&gt;
-&lt;col width="54%" /&gt;
-&lt;/colgroup&gt;
-&lt;tbody&gt;
-&lt;tr class="odd"&gt;
-&lt;td&gt;&lt;img src="https://chadchae.github.io//t/2021-02-24-mgs30012021sp/images/Sivan-01.jpeg" width="100" /&gt;&lt;/td&gt;
-&lt;td&gt;&lt;p&gt;Sivan | 沈易凡 | [Link]&lt;/p&gt;
-&lt;p&gt;Brief Bio&lt;/p&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
-      <distill:md5>04aa3d7fb22eec8b5869f257e765d2aa</distill:md5>
+      <description>Programming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python's built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.</description>
       <guid>https://chadchae.github.io/t/2021-02-24-mgs30012021sp</guid>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MGS3001_2021_WI</title>
+      <title>MGS3001: Python Programming for Business, Winter 2021</title>
       <dc:creator>Chad</dc:creator>
       <link>https://chadchae.github.io/t/2021-02-24-mgs30012021wi</link>
-      <description>A short description of the post.</description>
+      <description>Programming is a core component of the analytics field, as it facilitates data cleaning, preparation, and mining. Python scripting language is widely used in the data science field for data exploration and analysis. Through this course, students learn fundamental programming concepts and python programming syntax. The course familiarizes the students with Python's built-in modules, libraries, and functions that are essential for pattern and knowledge discovery.</description>
       <guid>https://chadchae.github.io/t/2021-02-24-mgs30012021wi</guid>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MGS2030: Principles of Management, Fall 2020</title>
+      <dc:creator>Chad</dc:creator>
+      <link>https://chadchae.github.io/t/2021-02-24-mgs20302020fa</link>
+      <description>This course is designed to explain the contemporary management challenges stemming from a changing work environment, globalization, new technological, developments and an increasingly diverse workforce. It identifies and reviews critical managemetn pricniples involved in planning, organizing, leading and controlling. Students willlearn to apply their knowledge to recognize, analyze and solve the complex problems of the contemporary mangemeent context.</description>
+      <guid>https://chadchae.github.io/t/2021-02-24-mgs20302020fa</guid>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
